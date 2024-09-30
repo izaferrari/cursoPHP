@@ -1,22 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1>
-     <?php
-       echo "ola mundo";
-
-
-
-
-     ?>
-
-
-    </h1>
-    <p>Testando</p>
+    <h1>Dados do servidor</h1>
+    <?php 
+      phpinfo();
+    
+    ?>
 </body>
 </html>
